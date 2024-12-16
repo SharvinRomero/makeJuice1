@@ -158,7 +158,6 @@ body::-webkit-scrollbar-thumb:hover {
 @media (min-width: 320px) {
 
     .cover {
-        width: 320px !important;
         height: 100vh !important;
         object-fit: cover;
     }
@@ -167,7 +166,6 @@ body::-webkit-scrollbar-thumb:hover {
 @media (min-width: 576px) {
 
     .cover {
-        width: auto !important;
         height: 100vh !important;
         object-fit: cover;
     }
