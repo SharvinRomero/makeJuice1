@@ -29,17 +29,17 @@ body::-webkit-scrollbar-thumb:hover {
     backdrop-filter: blur(10px);
 }
 
-.bg-orange{
+.bg-orange {
     background: orangered;
 }
 
-.btn-primary{
-    background:orangered !important;
+.btn-primary {
+    background: orangered !important;
 }
 
-.btn-primary:hover{
-    background:linear-gradient(90deg, rgba(227, 6, 19) 0%, rgba(243, 144, 0) 35%, rgba(138, 189, 36) 82%, rgba(227, 6, 19) 100%) !important;
-    color:black !important;
+.btn-primary:hover {
+    background: linear-gradient(90deg, rgba(227, 6, 19) 0%, rgba(243, 144, 0) 35%, rgba(138, 189, 36) 82%, rgba(227, 6, 19) 100%) !important;
+    color: black !important;
     font-weight: bold;
 }
 
@@ -53,9 +53,11 @@ body::-webkit-scrollbar-thumb:hover {
     0% {
         background-color: orangered;
     }
+
     50% {
         background-color: orange;
     }
+
     100% {
         background-color: crimson;
     }
@@ -108,21 +110,29 @@ body::-webkit-scrollbar-thumb:hover {
 
 @keyframes spin {
     0% {
-        transform: scale(1) rotate(0deg); /* Estado inicial */
+        transform: scale(1) rotate(0deg);
+        /* Estado inicial */
     }
+
     50% {
-        transform: scale(1.5) rotate(360deg); /* Escala y giro completo */
+        transform: scale(1.5) rotate(360deg);
+        /* Escala y giro completo */
     }
+
     100% {
-        transform: scale(1) rotate(360deg); /* Retorna al tamaño normal */
+        transform: scale(1) rotate(360deg);
+        /* Retorna al tamaño normal */
     }
 }
 
 
 @keyframes bounce {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(-10px);
     }
@@ -145,10 +155,17 @@ body::-webkit-scrollbar-thumb:hover {
     animation-delay: 0.2s;
 }
 
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
 
     .cover {
         height: 100vh;
         object-fit: cover;
     }
- }
+}
+
+@media (min-width: 768px) {
+    .cover {
+        height: 100vh;
+        object-fit: cover;
+    }
+}
